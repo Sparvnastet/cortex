@@ -1,4 +1,24 @@
-* Dependencies
-** Gevent
-** ZeroMQ
-** emokit
+* Braaaains
+
+** Usage
+
+*** Publisher
+
+**** Start publisher (with headset)
+: python2 server.py
+
+**** Play a pre-recorded file
+: python2 server.py -r < file
+
+*** Client
+
+**** Print to stdout
+: python client.py
+
+**** Record to a file
+: python client.py -r file
+
+** Dependencies
+*** Gevent
+*** ZeroMQ
+*** emokit
